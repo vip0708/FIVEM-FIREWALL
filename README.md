@@ -1,4 +1,4 @@
-# IP-WHITELISTER-FIVEM(LINUX)
+# FIREWALL-FOR FIVEM SERVER(LINUX)
 A Node js Application that fetches users IPV4 form a DB(JSON) and add it to the IP-Table of a specified port.
 
 
