@@ -4,7 +4,7 @@ A Node js Application that fetches users IPV4 form a DB and add it to the IP-Tab
 
 **Installation**
 ```
-* Node js
+ Node js
 ```
 
 **Installation**
