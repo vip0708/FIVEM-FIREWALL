@@ -9,7 +9,7 @@ A Node js Application that fetches users IPV4 form a DB and add it to the IP-Tab
 
 **Installation**
 ```
-Step 1 : npmi i 
+Step 1 : npm i 
 
 Step 2 : node App.js
 ```
@@ -27,7 +27,12 @@ const clientData = fs.readFileSync('Your IP JSON fil directory');   ---To fetch 
 This application fetch ipv4 from the db you've provided (JSON) then writes the ipv4 to to specific PORT of your firewall server
 ```
 
-##Example
+**TODO**
+```
+----
+```
+
+**Example**
 
 
 
