@@ -16,15 +16,15 @@ Step 2 : node App.js
 
 **Configuration**
 ```
-const webhookURL = ''
+const webhookURL = '' --Define your Discord webhook URL.
 
-const clientData = fs.readFileSync('Your IP JSON fil directory');   ---To fetch the ip
+const clientData = fs.readFileSync('Your IP JSON fil directory');   ---Define the path to your JSON file that contains the client IP addresses.
 ```
 
 ## Use
 
 ```
-This application fetch ipv4 from the db you've provided (JSON) then writes the ipv4 to to specific PORT of your firewall server
+To start the script, run node firewall-ip-tables-updater.js in your terminal. The script will automatically fetch the client IP addresses from the JSON file and update the IP tables every 30 seconds.
 ```
 
 **TODO**
