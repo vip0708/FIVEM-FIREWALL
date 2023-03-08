@@ -24,7 +24,7 @@ const clientData = fs.readFileSync('Your IP JSON fil directory');   ---Define th
 ## Use
 
 ```
-To start the script, run node firewall-ip-tables-updater.js in your terminal. The script will automatically fetch the client IP addresses from the JSON file and update the IP tables every 30 seconds.
+To start the script, run node App.js in your terminal. The script will automatically fetch the client IP addresses from the JSON file and update the IP tables every 30 seconds.
 ```
 
 **TODO**
